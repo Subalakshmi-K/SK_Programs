@@ -6,8 +6,8 @@ class Main{
         int n;
         Scanner scan = new Scanner(System.in);
         
-        String firstName = scan.nextline();
-        String lastName = scan.nextline();
+        String firstName = scan.next();
+        String lastName = scan.next();
         n = scan.nextInt();
         
         String fullName = firstName + lastName;
